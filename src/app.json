@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/baixuntech/main",
+    "pages/index/main",
+    "pages/logs/main",
+    "pages/counter/main",
+    "pages/change_date/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  }
+}
