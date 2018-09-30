@@ -5,7 +5,7 @@
     <!-- 这里是需要锚点定位到的位置，来自于各个子组件，用小程序的scroll-view组件实现 -->
     <scroll-view scroll-y :scroll-into-view="toView">
       <!-- 轮播图index -->
-      <swiper id="inToView-index" style="height: 210px; margin-top: 80px" :indicator-dots="true" :autoplay="true" :interval="3000" :duration="1000" :circular="true">
+      <swiper id="inToView-index" style="height: 210px; margin-top: 160rpx" :indicator-dots="true" :autoplay="true" :interval="3000" :duration="1000" :circular="true">
         <block v-for="item in imgUrls" :key="item">
           <swiper-item>
             <image :src="item" class="slide-image" mode="widthFix " width="375" height="150"/>
